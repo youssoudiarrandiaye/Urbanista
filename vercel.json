@@ -9,7 +9,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/9-profils-acheteurs.html"
+      "dest": "index.html"
     }
   ]
 }
