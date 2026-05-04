@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Urbanista Bistro — Happy Vibes Served Daily</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Outfit:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,700;1,500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-text">Urbanista</span>
+        <span class="logo-sub">BISTRO</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#popular">Vedettes</a></li>
+        <li><a href="#happy-hour">Happy Hour</a></li>
+        <li><a href="#gallery">Galerie</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="tel:338690600" class="nav-cta">Réserver</a>
+      <button class="burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <ul>
+        <li><a href="#about" class="mob-link">À propos</a></li>
+        <li><a href="#menu" class="mob-link">Menu</a></li>
+        <li><a href="#popular" class="mob-link">Vedettes</a></li>
+        <li><a href="#happy-hour" class="mob-link">Happy Hour</a></li>
+        <li><a href="#gallery" class="mob-link">Galerie</a></li>
+        <li><a href="#contact" class="mob-link">Contact</a></li>
+        <li><a href="tel:338690600" class="mob-link mob-cta">📞 Réserver</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="hero-overlay"></div>
+      <!-- Gradient placeholder — remplacer par une vraie image d'ambiance -->
+      <div class="hero-img-placeholder"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-tag reveal-up">Dakar · Point E</p>
+      <h1 class="hero-title reveal-up delay-1">
+        Urbanista<br /><em>Bistro</em>
+      </h1>
+      <p class="hero-slogan reveal-up delay-2">Happy Vibes Served Daily</p>
+      <div class="hero-actions reveal-up delay-3">
+        <a href="#menu" class="btn btn-primary">Voir le menu</a>
+        <a href="#about" class="btn btn-outline">Notre histoire</a>
+      </div>
+      <div class="hero-badges reveal-up delay-4">
+        <div class="badge">
+          <span class="badge-num">4.6★</span>
+          <span class="badge-label">317 avis</span>
+        </div>
+        <div class="badge-divider"></div>
+        <div class="badge">
+          <span class="badge-num">08h–23h</span>
+          <span class="badge-label">Tous les jours</span>
+        </div>
+        <div class="badge-divider"></div>
+        <div class="badge">
+          <span class="badge-num">Happy Hour</span>
+          <span class="badge-label">Cocktails & Sports</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ========== À PROPOS ========== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual">
+          <div class="about-img-main img-placeholder" data-label="Ambiance Urbanista"></div>
+          <div class="about-img-accent img-placeholder" data-label="Bar & Cocktails"></div>
+          <div class="about-tag-float">
+            <span>Est. 2020</span>
+          </div>
+        </div>
+        <div class="about-text">
+          <p class="section-tag reveal-left">Notre concept</p>
+          <h2 class="section-title reveal-left delay-1">
+            Un bistro urbain<br /><em>au cœur de Dakar</em>
+          </h2>
+          <p class="about-desc reveal-left delay-2">
+            Urbanista Bistro est bien plus qu'un restaurant — c'est un espace de vie où se croisent saveurs méditerranéennes, influences tropicales et énergie dakaroise. Du brunch du matin aux cocktails du soir, chaque moment est pensé pour vous faire vivre une expérience unique.
+          </p>
+          <p class="about-desc reveal-left delay-3">
+            Notre terrasse chic, notre bar animé et notre cuisine ouverte créent une atmosphère chaleureuse et moderne où il fait bon s'attarder. Venez pour le café, restez pour l'ambiance.
+          </p>
+          <div class="about-pillars reveal-left delay-4">
+            <div class="pillar">
+              <span class="pillar-icon">☕</span>
+              <span>Coffee Bar</span>
+            </div>
+            <div class="pillar">
+              <span class="pillar-icon">🍹</span>
+              <span>Cocktails</span>
+            </div>
+            <div class="pillar">
+              <span class="pillar-icon">🥂</span>
+              <span>Brunch</span>
+            </div>
+            <div class="pillar">
+              <span class="pillar-icon">📺</span>
+              <span>Sport Live</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== MENU INTERACTIF ========== -->
+  <section class="menu-section" id="menu">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag reveal-up">Notre carte</p>
+        <h2 class="section-title reveal-up delay-1">Explorez le Menu</h2>
+        <p class="section-sub reveal-up delay-2">8 univers culinaires qui raviront vos papilles</p>
+      </div>
+
+      <!-- Tabs catégories -->
+      <div class="menu-tabs reveal-up delay-3">
+        <button class="tab-btn active" data-cat="entrees">🥗 Entrées</button>
+        <button class="tab-btn" data-cat="cocktails">🍹 Cocktails</button>
+        <button class="tab-btn" data-cat="vins">🍷 Cave & Vins</button>
+        <button class="tab-btn" data-cat="plats">🍽️ Plats</button>
+        <button class="tab-btn" data-cat="boissons">🧃 Boissons</button>
+        <button class="tab-btn" data-cat="brunch">🥞 Brunch</button>
+        <button class="tab-btn" data-cat="desserts">🍮 Desserts</button>
+        <button class="tab-btn" data-cat="platters">🫕 Platters</button>
+      </div>
+
+      <!-- Contenu menu -->
+      <div class="menu-content">
+
+        <!-- Entrées -->
+        <div class="menu-panel active" data-panel="entrees">
+          <div class="menu-panel-inner">
+            <div class="menu-img-col">
+              <div class="menu-cat-img img-placeholder" data-label="Entrées & Partage (Y36)" style="--ph-color:#8B7355;"></div>
+            </div>
+            <div class="menu-items-col">
+              <div class="menu-item">
+                <div class="mi-info"><h4>Bruschetta Maison</h4><p>Tomates cerises, basilic frais, huile d'olive</p></div>
+                <span class="mi-price">3 500 F</span>
+              </div>
+              <div class="menu-item">
+                <div class="mi-info"><h4>Planche Charcuterie</h4><p>Sélection de charcuteries, cornichons, moutarde</p></div>
+                <span class="mi-price">8 500 F</span>
+              </div>
+              <div class="menu-item">
+                <div class="mi-info"><h4>Nachos Partagés</h4><p>Guacamole, salsa, crème fraîche, cheddar fondu</p></div>
+                <span class="mi-price">5 500 F</span>
+              </div>
+              <div class="menu-item">
+                <div class="mi-info"><h4>Calamars Frits</h4><p>Sauce tartare maison, citron</p></div>
+                <span class="mi-price">6 000 F</span>
+              </div>
+              <div class="menu-item">
+                <div class="mi-info"><h4>Salade César</h4><p>Romaine, parmesan, croûtons, sauce César classique</p></div>
+                <span class="mi-price">4 500 F</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cocktails -->
+        <div class="menu-panel" data-panel="cocktails">
+          <div class="menu-panel-inner">
+            <div class="menu-img-col">
+              <div class="menu-cat-img img-placeholder" data-label="Cocktails (Y37)" style="--ph-color:#C0392B;"></div>
+            </div>
+            <div class="menu-items-col">
+              <div class="menu-item featured">
+                <div class="mi-info"><h4>Urbanista Signature 🔥</h4><p>Gin, gingembre, citron vert, sirop hibiscus</p></div>
+                <span class="mi-price">4 500 F</span>
+              </div>
+              <div class="menu-item">
+                <div class="mi-info"><h4>Mojito Tropical</h4><p>Rhum blanc, menthe, citron vert, ananas</p></div>
+                <span class="mi-price">4 000 F</span>
+              </div>
+              <div class="menu-item">
+                <div class="mi-info"><h4>Dakar Sunset</h4><p>Tequila, jus d'orange, grenadine, piment doux</p></div>
+                <span class="mi-price">4 500 F</span>
+              </div>
+              <div class="menu-item">
+                <div class="mi-info"><h4>Aperol Spritz</h4><p>Aperol, prosecco, eau gazeuse, orange</p></div>
+                <span class="mi-price">3 800 F</span>
+              </div>
+              <div class="menu-item">
+                <div class="mi-info"><h4>Virgin Hibiscus</h4><p>Bissap, citron, gingembre, eau gazeuse — Sans alcool</p></div>
+                <span class="mi-price">2 500 F</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Vins -->
+        <div class="menu-panel" data-panel="vins">
+          <div class="menu-panel-inner">
+            <div class="menu-img-col">
+              <div class="menu-cat-img img-placeholder" data-label="Cave & Vins (Y38)" style="--ph-color:#722F37;"></div>
+            </div>
+            <div class="menu-items-col">
+              <div class="menu-item">
+                <div class="mi-info"><h4>Côtes du Rhône Rouge</h4><p>Syrah, Grenache — Fruité et charpenté</p></div>
+                <span class="mi-price">5 500 F</span>
+              </div>
+              <div class="menu-item">
+                <div class="mi-info"><h4>Chablis Blanc</h4><p>Chardonnay — Sec et minéral</p></div>
+                <span class="mi-price">6 000 F</span>
+              </div>
+              <div class="menu-item">
+                <div class="mi-info"><h4>Rosé de Provence</h4><p>Grenache, Cinsault — Frais et élégant</p></div>
+                <span class="mi-price">5 000 F</span>
+              </div>
+              <div class="menu-item">
+                <div class="mi-info"><h4>Prosecco</h4><p>Bulles légères et fruitées, Italie</p></div>
+                <span class="mi-price">4 500 F</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Plats -->
+        <div class="menu-panel" data-panel="plats">
+          <div class="menu-panel-inner">
+            <div class="menu-img-col">
+              <div class="menu-cat-img img-placeholder" data-label="Plats Principaux (Y39)" style="--ph-color:#6B4226;"></div>
+            </div>
+            <div class="menu-items-col">
+              <div class="menu-item featured">
+                <div class="mi-info"><h4>Salmon Pizza 🔥</h4><p>Saumon fumé, crème fraîche, câpres, aneth</p></div>
+                <span class="mi-price">9 500 F</span>
+              </div>
+              <div class="menu-item featured">
+                <div class="mi-info"><h4>Hamburger Urbanista 🔥</h4><p>Bœuf Black Angus, cheddar, oignons caramélisés, sauce maison</p></div>
+                <span class="mi-price">8 000 F</span>
+              </div>
+              <div class="menu-item">
+                <div class="mi-info"><h4>Pâtes Carbonara</h4><p>Lardons fumés, œuf, parmesan, poivre noir</p></div>
+                <span class="mi-price">7 000 F</span>
+              </div>
+              <div class="menu-item">
+                <div class="mi-info"><h4>Poulet Yassa Fusion</h4><p>Notre twist sur le classique sénégalais</p></div>
+                <span class="mi-price">8 500 F</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Boissons -->
+        <div class="menu-panel" data-panel="boissons">
+          <div class="menu-panel-inner">
+            <div class="menu-img-col">
+              <div class="menu-cat-img img-placeholder" data-label="Boissons (Y40)" style="--ph-color:#2ECC71;"></div>
+            </div>
+            <div class="menu-items-col">
+              <div class="menu-item featured">
+                <div class="mi-info"><h4>Watermelon Juice 🔥</h4><p>Pastèque fraîche pressée, menthe, citron</p></div>
+                <span class="mi-price">2 500 F</span>
+              </div>
+              <div class="menu-item">
+                <div class="mi-info"><h4>Smoothie Tropical</h4><p>Mangue, banane, lait de coco, gingembre</p></div>
+                <span class="mi-price">3 000 F</span>
+              </div>
+              <div class="menu-item">
+                <div class="mi-info"><h4>Bissap Maison</h4><p>Fleurs d'hibiscus, citron, sucre de canne</p></div>
+                <span class="mi-price">1 500 F</span>
+              </div>
+              <div class="menu-item">
+                <div class="mi-info"><h4>Eau San Pellegrino</h4><p>Plate ou gazeuse — 33cl</p></div>
+                <span class="mi-price">1 200 F</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Brunch -->
+        <div class="menu-panel" data-panel="brunch">
+          <div class="menu-panel-inner">
+            <div class="menu-img-col">
+              <div class="menu-cat-img img-placeholder" data-label="Brunch (Y41)" style="--ph-color:#F39C12;"></div>
+            </div>
+            <div class="menu-items-col">
+              <div class="menu-item featured">
+                <div class="mi-info"><h4>Expresso ☕ 🔥</h4><p>Grain arabica sélectionné, torréfaction artisanale</p></div>
+                <span class="mi-price">1 000 F</span>
+              </div>
+              <div class="menu-item">
+                <div class="mi-info"><h4>Brunch Complet</h4><p>Œufs, toast, saumon, fromage, jus de fruits</p></div>
+                <span class="mi-price">9 000 F</span>
+              </div>
+              <div class="menu-item">
+                <div class="mi-info"><h4>Pancakes Maison</h4><p>Sirop d'érable, fruits rouges, chantilly</p></div>
+                <span class="mi-price">4 500 F</span>
+              </div>
+              <div class="menu-item">
+                <div class="mi-info"><h4>Avocado Toast</h4><p>Pain sourdough, avocat écrasé, œuf poché, graines</p></div>
+                <span class="mi-price">5 000 F</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Desserts -->
+        <div class="menu-panel" data-panel="desserts">
+          <div class="menu-panel-inner">
+            <div class="menu-img-col">
+              <div class="menu-cat-img img-placeholder" data-label="Desserts (Y42)" style="--ph-color:#8E44AD;"></div>
+            </div>
+            <div class="menu-items-col">
+              <div class="menu-item featured">
+                <div class="mi-info"><h4>Fondant au Chocolat 🔥</h4><p>Cœur coulant, glace vanille, éclats de pralin</p></div>
+                <span class="mi-price">4 000 F</span>
+              </div>
+              <div class="menu-item featured">
+                <div class="mi-info"><h4>Banane Croustillante 🔥</h4><p>Banane flambée, caramel beurre salé, chantilly</p></div>
+                <span class="mi-price">3 500 F</span>
+              </div>
+              <div class="menu-item">
+                <div class="mi-info"><h4>Tiramisu Classique</h4><p>Mascarpone, café, amaretto, cacao</p></div>
+                <span class="mi-price">3 500 F</span>
+              </div>
+              <div class="menu-item">
+                <div class="mi-info"><h4>Crème Brûlée</h4><p>Vanille bourbon, caramel croustillant</p></div>
+                <span class="mi-price">3 000 F</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Platters -->
+        <div class="menu-panel" data-panel="platters">
+          <div class="menu-panel-inner">
+            <div class="menu-img-col">
+              <div class="menu-cat-img img-placeholder" data-label="Platters (Y43)" style="--ph-color:#E67E22;"></div>
+            </div>
+            <div class="menu-items-col">
+              <div class="menu-item">
+                <div class="mi-info"><h4>Platter Mixte (2 pers.)</h4><p>Viandes, fromages, fruits, dips, pains artisanaux</p></div>
+                <span class="mi-price">18 000 F</span>
+              </div>
+              <div class="menu-item">
+                <div class="mi-info"><h4>Platter Fruits de Mer</h4><p>Crevettes, calamars, saumon, sauces variées</p></div>
+                <span class="mi-price">22 000 F</span>
+              </div>
+              <div class="menu-item">
+                <div class="mi-info"><h4>Platter Végétarien</h4><p>Légumes grillés, hummus, falafels, taboule</p></div>
+                <span class="mi-price">14 000 F</span>
+              </div>
+              <div class="menu-item">
+                <div class="mi-info"><h4>Grand Platter (4–6 pers.)</h4><p>Le meilleur de nos cuisines pour les grandes tablées</p></div>
+                <span class="mi-price">38 000 F</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- end menu-content -->
+    </div>
+  </section>
+
+  <!-- ========== PLATS POPULAIRES ========== -->
+  <section class="popular" id="popular">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag reveal-up">Nos best-sellers</p>
+        <h2 class="section-title reveal-up delay-1">Plats Vedettes</h2>
+      </div>
+      <div class="popular-grid">
+        <div class="pop-card reveal-up delay-1">
+          <div class="pop-img img-placeholder" data-label="Fondant au Chocolat" style="--ph-color:#3E1C00;"></div>
+          <div class="pop-overlay">
+            <h4>Fondant au Chocolat</h4>
+            <p>Dessert</p>
+            <span>4 000 F</span>
+          </div>
+        </div>
+        <div class="pop-card reveal-up delay-2">
+          <div class="pop-img img-placeholder" data-label="Banane Croustillante" style="--ph-color:#F4A800;"></div>
+          <div class="pop-overlay">
+            <h4>Banane Croustillante</h4>
+            <p>Dessert</p>
+            <span>3 500 F</span>
+          </div>
+        </div>
+        <div class="pop-card reveal-up delay-3">
+          <div class="pop-img img-placeholder" data-label="Hamburger Urbanista" style="--ph-color:#7A3B1E;"></div>
+          <div class="pop-overlay">
+            <h4>Hamburger Urbanista</h4>
+            <p>Plat principal</p>
+            <span>8 000 F</span>
+          </div>
+        </div>
+        <div class="pop-card reveal-up delay-1">
+          <div class="pop-img img-placeholder" data-label="Watermelon Juice" style="--ph-color:#E74C3C;"></div>
+          <div class="pop-overlay">
+            <h4>Watermelon Juice</h4>
+            <p>Boisson</p>
+            <span>2 500 F</span>
+          </div>
+        </div>
+        <div class="pop-card reveal-up delay-2">
+          <div class="pop-img img-placeholder" data-label="Salmon Pizza" style="--ph-color:#F08080;"></div>
+          <div class="pop-overlay">
+            <h4>Salmon Pizza</h4>
+            <p>Plat principal</p>
+            <span>9 500 F</span>
+          </div>
+        </div>
+        <div class="pop-card reveal-up delay-3">
+          <div class="pop-img img-placeholder" data-label="Expresso" style="--ph-color:#3E1A00;"></div>
+          <div class="pop-overlay">
+            <h4>Expresso</h4>
+            <p>Café</p>
+            <span>1 000 F</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== HAPPY HOUR ========== -->
+  <section class="happy-hour" id="happy-hour">
+    <div class="hh-bg"></div>
+    <div class="container">
+      <div class="hh-content">
+        <div class="hh-badge">🥂 Happy Hour</div>
+        <h2 class="hh-title reveal-up">L'heure la plus <em>heureuse</em><br />de la journée</h2>
+        <p class="hh-sub reveal-up delay-1">Cocktails, ambiance et sport en direct — tous les soirs</p>
+        <div class="hh-cards reveal-up delay-2">
+          <div class="hh-card">
+            <span class="hh-icon">🍹</span>
+            <h4>Cocktails –30%</h4>
+            <p>Sur toute la carte cocktails pendant le Happy Hour</p>
+          </div>
+          <div class="hh-card">
+            <span class="hh-icon">🍺</span>
+            <h4>Bières Happy</h4>
+            <p>Pinte à prix réduit, choisissez parmi nos sélections pression</p>
+          </div>
+          <div class="hh-card">
+            <span class="hh-icon">📺</span>
+            <h4>Sport Live</h4>
+            <p>Tous les grands matchs retransmis sur nos écrans HD</p>
+          </div>
+        </div>
+        <a href="tel:778446206" class="btn btn-gold reveal-up delay-3">Réserver une table</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== AVIS CLIENTS ========== -->
+  <section class="reviews" id="reviews">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag reveal-up">Ce qu'ils disent</p>
+        <h2 class="section-title reveal-up delay-1">
+          <span class="review-score">4.6</span> ★ sur Google
+        </h2>
+        <p class="section-sub reveal-up delay-2">317 avis vérifiés</p>
+      </div>
+      <div class="reviews-grid">
+        <div class="review-card reveal-up delay-1">
+          <div class="rv-stars">★★★★★</div>
+          <p class="rv-text">"Le fondant au chocolat est tout simplement divin ! L'ambiance est top, les cocktails excellents. On reviendra certainement."</p>
+          <div class="rv-author">
+            <div class="rv-avatar">M</div>
+            <div><strong>Marième D.</strong><br /><span>Google Review</span></div>
+          </div>
+        </div>
+        <div class="review-card reveal-up delay-2">
+          <div class="rv-stars">★★★★★</div>
+          <p class="rv-text">"Meilleur brunch de Dakar ! Le cadre est magnifique, le service attentionné. Le salmon pizza est une merveille."</p>
+          <div class="rv-author">
+            <div class="rv-avatar">A</div>
+            <div><strong>Abdou K.</strong><br /><span>Google Review</span></div>
+          </div>
+        </div>
+        <div class="review-card reveal-up delay-3">
+          <div class="rv-stars">★★★★☆</div>
+          <p class="rv-text">"Happy hour génial, super ambiance pour regarder les matchs. Les cocktails sont créatifs et bien dosés. Je recommande !"</p>
+          <div class="rv-author">
+            <div class="rv-avatar">S</div>
+            <div><strong>Sophie L.</strong><br /><span>Google Review</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="review-cta reveal-up delay-4">
+        <a href="https://g.page/r/urbanistabistro/review" target="_blank" class="btn btn-outline">Laisser un avis ✍️</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GALERIE ========== -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag reveal-up">Nos moments</p>
+        <h2 class="section-title reveal-up delay-1">L'ambiance en images</h2>
+      </div>
+    </div>
+    <div class="gallery-grid">
+      <div class="gal-item gal-big reveal-up" data-index="0">
+        <div class="img-placeholder" data-label="Ambiance terrasse"></div>
+        <div class="gal-overlay"><span>🔍</span></div>
+      </div>
+      <div class="gal-item reveal-up delay-1" data-index="1">
+        <div class="img-placeholder" data-label="Bar cocktails"></div>
+        <div class="gal-overlay"><span>🔍</span></div>
+      </div>
+      <div class="gal-item reveal-up delay-2" data-index="2">
+        <div class="img-placeholder" data-label="Brunch du matin"></div>
+        <div class="gal-overlay"><span>🔍</span></div>
+      </div>
+      <div class="gal-item reveal-up delay-1" data-index="3">
+        <div class="img-placeholder" data-label="Plats signature"></div>
+        <div class="gal-overlay"><span>🔍</span></div>
+      </div>
+      <div class="gal-item reveal-up delay-2" data-index="4">
+        <div class="img-placeholder" data-label="Happy Hour"></div>
+        <div class="gal-overlay"><span>🔍</span></div>
+      </div>
+      <div class="gal-item gal-tall reveal-up delay-3" data-index="5">
+        <div class="img-placeholder" data-label="Façade du restaurant"></div>
+        <div class="gal-overlay"><span>🔍</span></div>
+      </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+      <button class="lb-close" id="lbClose">✕</button>
+      <button class="lb-prev" id="lbPrev">‹</button>
+      <button class="lb-next" id="lbNext">›</button>
+      <div class="lb-img-wrap">
+        <div class="img-placeholder lb-img" id="lbImg" data-label="Photo ambiance"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT + MAP ========== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag reveal-up">Nous trouver</p>
+        <h2 class="section-title reveal-up delay-1">Venez nous voir</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal-left">
+          <div class="ci-block">
+            <span class="ci-icon">📍</span>
+            <div>
+              <h4>Adresse</h4>
+              <p>Rue 7, Point E<br />Dakar, Sénégal</p>
+            </div>
+          </div>
+          <div class="ci-block">
+            <span class="ci-icon">📞</span>
+            <div>
+              <h4>Téléphone</h4>
+              <p><a href="tel:338690600">33 869 06 00</a><br /><a href="tel:778446206">77 844 62 06</a></p>
+            </div>
+          </div>
+          <div class="ci-block">
+            <span class="ci-icon">🕐</span>
+            <div>
+              <h4>Horaires</h4>
+              <p>Tous les jours<br /><strong>08h00 – 23h00</strong></p>
+            </div>
+          </div>
+          <div class="ci-block">
+            <span class="ci-icon">📸</span>
+            <div>
+              <h4>Instagram</h4>
+              <p><a href="https://instagram.com/urbanista.bistro" target="_blank">@urbanista.bistro</a></p>
+            </div>
+          </div>
+          <div class="ci-actions">
+            <a href="tel:338690600" class="btn btn-primary">📞 Appeler</a>
+            <a href="https://wa.me/221778446206" target="_blank" class="btn btn-whatsapp">💬 WhatsApp</a>
+          </div>
+        </div>
+        <div class="contact-map reveal-right">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15428.503!2d-17.4734!3d14.6928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec172f5b3c5b6f9%3A0x0!2sPoint+E%2C+Dakar%2C+S%C3%A9n%C3%A9gal!5e0!3m2!1sfr!2sfr!4v1700000000000"
+            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" title="Urbanista Bistro - Point E, Dakar">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="ft-brand">
+          <div class="footer-logo">
+            <span class="logo-text">Urbanista</span>
+            <span class="logo-sub">BISTRO</span>
+          </div>
+          <p class="ft-tagline">Happy Vibes Served Daily</p>
+          <div class="ft-socials">
+            <a href="https://instagram.com/urbanista.bistro" target="_blank" class="social-btn">Instagram</a>
+            <a href="https://wa.me/221778446206" target="_blank" class="social-btn wa">WhatsApp</a>
+          </div>
+        </div>
+        <div class="ft-links">
+          <h5>Navigation</h5>
+          <ul>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#happy-hour">Happy Hour</a></li>
+            <li><a href="#gallery">Galerie</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="ft-hours">
+          <h5>Horaires</h5>
+          <p>Lundi – Dimanche<br /><strong>08h00 – 23h00</strong></p>
+          <p class="ft-addr">Rue 7, Point E<br />Dakar, Sénégal</p>
+        </div>
+        <div class="ft-contact">
+          <h5>Contact</h5>
+          <p><a href="tel:338690600">33 869 06 00</a></p>
+          <p><a href="tel:778446206">77 844 62 06</a></p>
+          <p><a href="https://instagram.com/urbanista.bistro">@urbanista.bistro</a></p>
+          <div class="ft-rating">
+            <span>⭐ 4.6 / 5</span>
+            <span>317 avis Google</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Urbanista Bistro. Tous droits réservés.</p>
+        <p>Fait avec ❤️ à Dakar</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== BOUTON WHATSAPP FLOTTANT ========== -->
+  <a href="https://wa.me/221778446206?text=Bonjour%20Urbanista%20Bistro%2C%20je%20voudrais%20faire%20une%20r%C3%A9servation." 
+     target="_blank" class="whatsapp-float" id="waFloat" aria-label="WhatsApp">
+    <svg viewBox="0 0 32 32" width="28" height="28" fill="white">
+      <path d="M16 2C8.28 2 2 8.28 2 16c0 2.48.68 4.8 1.86 6.8L2 30l7.38-1.84A13.9 13.9 0 0 0 16 30c7.72 0 14-6.28 14-14S23.72 2 16 2zm0 25.4a11.6 11.6 0 0 1-5.9-1.6l-.42-.25-4.38 1.1 1.12-4.27-.28-.44A11.6 11.6 0 1 1 16 27.4zm6.38-8.72c-.35-.18-2.07-1.02-2.39-1.14-.32-.12-.55-.17-.78.17-.23.35-.9 1.14-1.1 1.37-.2.23-.41.26-.76.09-.35-.18-1.48-.55-2.82-1.75-1.04-.93-1.74-2.08-1.95-2.43-.2-.35-.02-.54.15-.72.16-.16.35-.41.52-.62.18-.21.23-.35.35-.58.12-.23.06-.44-.03-.62-.09-.18-.78-1.88-1.07-2.57-.28-.67-.57-.58-.78-.59H9.5c-.2 0-.53.07-.81.35-.28.28-1.07 1.05-1.07 2.55s1.1 2.96 1.25 3.16c.15.2 2.16 3.3 5.24 4.62.73.32 1.3.5 1.74.64.73.23 1.4.2 1.93.12.59-.09 1.81-.74 2.07-1.45.26-.71.26-1.32.18-1.45-.08-.13-.29-.2-.64-.38z"/>
+    </svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
